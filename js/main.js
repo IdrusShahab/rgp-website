@@ -104,7 +104,7 @@ function initScrollAnimations() {
   const observer = new IntersectionObserver(animateOnScroll, observerOptions);
   
   const animatedElements = document.querySelectorAll(
-    '.benefit-card, .facility-card, .process-step, .hub-card, .stat-card'
+    '.benefit-card, .facility-card, .process-step, .hub-card, .stat-card, .gallery-item'
   );
   
   animatedElements.forEach((el, index) => {
