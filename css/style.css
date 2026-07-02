@@ -212,12 +212,12 @@ ul {
   right: 0;
   z-index: 1000;
   padding: 16px 0;
-  background: transparent;
-  transition: background 0.3s ease, padding 0.3s ease, box-shadow 0.3s ease;
+  background-color: var(--green-800);
+  box-shadow: var(--shadow-md);
+  transition: padding 0.3s ease, box-shadow 0.3s ease;
 }
 
 .navbar.scrolled {
-  background: var(--green-800);
   padding: 12px 0;
   box-shadow: var(--shadow-lg);
 }
